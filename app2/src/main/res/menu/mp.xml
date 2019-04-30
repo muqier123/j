@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mp1"
+        android:title="pupo"
+        android:checkable="true"
+        />
+    <item android:id="@+id/mp2"
+        android:title="广播"
+        android:checkable="true"
+        />
+    <item android:id="@+id/mp3"
+        android:title="打电话"
+        android:checkable="true"
+        />
+</menu>

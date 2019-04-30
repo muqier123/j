@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:src="@mipmap/ic_launcher"
+       android:id="@+id/item_iv"/>
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_tv"
+        android:text="sdfghjkljhgfds"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/item_iv2"/>
+
+        <TextView
+            android:layout_margin="15dp"
+            android:layout_toRightOf="@id/item_iv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_tv2"
+            android:text="sdfgh"/>
+        <CheckBox
+            android:id="@+id/ch"
+            android:layout_alignParentRight="true"
+            android:layout_width="25dp"
+            android:background="@drawable/select"
+            android:button="@color/b"
+            android:layout_height="25dp" />
+    </RelativeLayout>
+
+</LinearLayout>
